@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(5, 5, 66);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(155, 155, 230);
+            font-size: 1.04rem;
+        }
+
+        .heading1 img {
+            width: 36px;
+        }
+
+        .heading1 {
+            display: flex;
+            align-items: center;
+            margin: 30px 43%;
+            font-size: 1.5rem;
+            color: #f2df64;
+            ;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 70px;
+
+        }
+
+        .desc .buttons {
+            padding: 25px 0;
+           
+        }
+
+        .desc .btn {
+            padding: 123px;
+            padding: 12px;
+            background: #9b3d98;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+        .name{
+            color: rgb(252, 3, 57);
+        }
+        footer .footer-rights {
+            background-color: rgb(2, 2, 9);
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Manish's Developer Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="heading1">
+            <img src="./img/project.png" alt="project">
+            PROJECTS
+        </section>
+
+        <section class="1st-project">
+            <div class="desc">
+                <div class="heading">
+                   NAME: <span class="name">Bank Account</span>
+                </div>
+                <ul>
+                    <li>
+                        Environment: JAVA(Eclipse IDE)
+                    </li>
+                    <li>
+                        Description: Created code to create account, delete account, Deposit money, withdrawal money.By
+                        Using Core java Concepts.
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn" onclick="location.href='https://github.com/codeWithmanishM/Bank'">Visit
+                        Project</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="1st-project">
+            <div class="desc">
+                <div class="heading">
+                    NAME: <span class="name">HIBERNATE project</span>
+                </div>
+                <ul>
+                    <li>
+                        Environment: HIBERNATE(Eclipse IDE, Mysql)
+                    </li>
+                    <li>
+                        Description: Created Hibernate project of Course and Student Many to many Bidirectional
+                        Relationship Concepts.
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn"
+                        onclick="location.href='https://github.com/codeWithmanishM/Hibernate_Project'">Visit
+                        Project</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="1st-project">
+            <div class="desc">
+                <div class="heading">
+                   NAME: <span class="name">Student Table</span>
+                </div>
+                <ul>
+                    <li>
+                        Environment: Spring Boot(Eclipse IDE, Maven, Postman,
+                        Mysql Workbench)
+
+                    </li>
+                    <li>
+                        Description: created Student Table containing ID, marks, name and subject Using Spring Boot
+                        concepts like
+                        dto package, dao package, controller package and Repository etc.
+                </ul>
+                <div class="buttons">
+                    <button class="btn" onclick="location.href='https://github.com/codeWithmanishM/Student_Table'">Visit
+                        Project</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="1st-project">
+            <div class="desc">
+                <div class="heading">
+                   NAME: <span class="name">Manish's portfolio</span>
+                </div>
+                <ul>
+                    <li>
+                        Environment: HTML+CSS(Visual Studio Code)
+                    </li>
+                    <li>
+                        Description: Created Personal Portfolio By using HTML CSS Concepts.
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn" onclick="location.href='http://127.0.0.1:5500/index.html'">Visit
+                        Project</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-rights">
+            Copyright &#169; manishsportfolio | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
